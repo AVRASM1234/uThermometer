@@ -1,0 +1,58 @@
+Added Component: Designator=DA1(IC LM324D)
+Added Component: Designator=R1(SMD0805)
+Added Component: Designator=R2(SMD0805)
+Added Component: Designator=R3(SMD0805)
+Added Component: Designator=R4(SMD0805)
+Added Component: Designator=R5(SMD0805)
+Added Component: Designator=R6(SMD0805)
+Added Component: Designator=R7(SMD0805)
+Added Component: Designator=R8(SMD0805)
+Added Component: Designator=X1(Terminal KLS2-301-5.00-04P)
+Added Pin To Net: NetName=GND Pin=DA1-11
+Added Pin To Net: NetName=GND Pin=R2-2
+Added Pin To Net: NetName=GND Pin=R8-1
+Added Net: Name=GND
+Added Pin To Net: NetName=NetDA1_1 Pin=DA1-1
+Added Pin To Net: NetName=NetDA1_1 Pin=X1-1
+Added Net: Name=NetDA1_1
+Added Pin To Net: NetName=NetDA1_2 Pin=DA1-2
+Added Pin To Net: NetName=NetDA1_2 Pin=R8-2
+Added Pin To Net: NetName=NetDA1_2 Pin=X1-4
+Added Net: Name=NetDA1_2
+Added Pin To Net: NetName=NetDA1_5 Pin=DA1-5
+Added Pin To Net: NetName=NetDA1_5 Pin=X1-2
+Added Net: Name=NetDA1_5
+Added Pin To Net: NetName=NetDA1_6 Pin=DA1-6
+Added Pin To Net: NetName=NetDA1_6 Pin=R3-1
+Added Pin To Net: NetName=NetDA1_6 Pin=R4-2
+Added Net: Name=NetDA1_6
+Added Pin To Net: NetName=NetDA1_7 Pin=DA1-7
+Added Pin To Net: NetName=NetDA1_7 Pin=R1-1
+Added Pin To Net: NetName=NetDA1_7 Pin=R3-2
+Added Net: Name=NetDA1_7
+Added Pin To Net: NetName=NetDA1_8 Pin=DA1-8
+Added Pin To Net: NetName=NetDA1_8 Pin=R5-1
+Added Pin To Net: NetName=NetDA1_8 Pin=R6-1
+Added Net: Name=NetDA1_8
+Added Pin To Net: NetName=NetDA1_9 Pin=DA1-9
+Added Pin To Net: NetName=NetDA1_9 Pin=R4-1
+Added Pin To Net: NetName=NetDA1_9 Pin=R5-2
+Added Net: Name=NetDA1_9
+Added Pin To Net: NetName=NetDA1_10 Pin=DA1-10
+Added Pin To Net: NetName=NetDA1_10 Pin=X1-3
+Added Net: Name=NetDA1_10
+Added Pin To Net: NetName=NetDA1_12 Pin=DA1-12
+Added Pin To Net: NetName=NetDA1_12 Pin=R1-2
+Added Pin To Net: NetName=NetDA1_12 Pin=R2-1
+Added Net: Name=NetDA1_12
+Added Pin To Net: NetName=NetDA1_13 Pin=DA1-13
+Added Pin To Net: NetName=NetDA1_13 Pin=R6-2
+Added Pin To Net: NetName=NetDA1_13 Pin=R7-1
+Added Net: Name=NetDA1_13
+Added Pin To Net: NetName=NetDA1_14 Pin=DA1-14
+Added Pin To Net: NetName=NetDA1_14 Pin=R7-2
+Added Net: Name=NetDA1_14
+Added Pin To Net: NetName=VCC Pin=DA1-4
+Added Net: Name=VCC
+Added Class: Name=uThermometer
+Added Room: Name=uThermometer
