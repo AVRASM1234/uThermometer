@@ -3,10 +3,10 @@ FileType=CIR
 Version=9.00
 Program=Micro-Cap
 Screen=1920,1080
-MCAPVersion=9.0.6.0
+MCAPVersion=9.0.6.1
 Key ID=2 233 293 684
 NLCnt=77
-TXCnt=12
+TXCnt=11
 
 [shapedef]
 Name=Battery
@@ -126,7 +126,7 @@ Pin="Minus",0,0,-14,-4
 Name=Zener
 Definition=Diode
 Shape=Zener
-Mask=4352
+Mask=4096
 memo=Zener diode
 Label Offset=16,11,16,11
 PinCnt=2
@@ -177,8 +177,8 @@ TitleBlock One Title=False
 Title_Block_Border=False
 Title_Block=False
 Show Nodes=False
-Show Voltages=True
-Show Current=True
+Show Voltages=False
+Show Current=False
 Show Power=False
 Show Condition=False
 Show Pin Connections=False
@@ -193,11 +193,11 @@ Rot=3
 Page=3
 
 [Attr]
-ONV=-26,-41,PART,V1
+ONV=-26,-27,VALUE,5
 Style=8192
 
 [Attr]
-ONV=-26,-27,VALUE,5
+ONV=-26,-41,PART,V1
 Style=8192
 
 [Comp]
@@ -213,11 +213,11 @@ Rot=3
 Page=3
 
 [Attr]
-ONV=-26,-41,PART,V2
+ONV=-18,-27,VALUE,-5
 Style=8192
 
 [Attr]
-ONV=-18,-27,VALUE,-5
+ONV=-26,-41,PART,V2
 Style=8192
 
 [Comp]
@@ -348,7 +348,7 @@ Color=#000000
 Font=Arial
 
 [Attr]
-ONV=-34,4,RESISTANCE,10k
+ONV=-34,4,RESISTANCE,1k
 Style=8192
 Height=-16
 Color=#000000
@@ -405,7 +405,7 @@ Color=#000000
 Font=Arial
 
 [Attr]
-ONV=-34,4,RESISTANCE,10k
+ONV=-34,4,RESISTANCE,1k
 Style=8192
 Height=-16
 Color=#000000
@@ -448,7 +448,7 @@ Color=#000000
 Font=Arial
 
 [Attr]
-ONV=-25,30,RESISTANCE,10k
+ONV=-25,30,RESISTANCE,1k
 Style=8192
 Height=-16
 Color=#000000
@@ -539,14 +539,14 @@ Grid=95,92
 Rot=7
 
 [Attr]
-ONV=-30,12,PART,R6
+ONV=-28,11,PART,R6
 Style=8192
 Height=-16
 Color=#000000
 Font=Arial
 
 [Attr]
-ONV=-35,25,RESISTANCE,100
+ONV=-35,25,RESISTANCE,30
 Style=8192
 Height=-16
 Color=#000000
@@ -593,7 +593,7 @@ Color=#000000
 Font=Arial
 
 [Attr]
-ONV=-28,26,RESISTANCE,20k
+ONV=-28,26,RESISTANCE,2k
 Style=8192
 Height=-16
 Color=#000000
@@ -681,7 +681,7 @@ Color=#000000
 Font=Arial
 
 [Attr]
-ONV=-25,30,RESISTANCE,10k
+ONV=-25,30,RESISTANCE,1k
 Style=8192
 Height=-16
 Color=#000000
@@ -791,7 +791,7 @@ Color=#000000
 Font=Arial
 
 [Attr]
-ONV=-34,4,RESISTANCE,10k
+ONV=-34,4,RESISTANCE,1k
 Style=8192
 Height=-16
 Color=#000000
@@ -840,7 +840,7 @@ Color=#000000
 Font=Arial
 
 [Attr]
-ONV=-34,4,RESISTANCE,10k
+ONV=-34,4,RESISTANCE,1k
 Style=8192
 Height=-16
 Color=#000000
@@ -987,7 +987,7 @@ Color=#000000
 Font=Arial
 
 [Attr]
-ONV=-35,5,RESISTANCE,2k
+ONV=-35,5,RESISTANCE,1k
 Style=8192
 Height=-16
 Color=#000000
@@ -1038,7 +1038,7 @@ Color=#000000
 Font=Arial
 
 [Attr]
-ONV=16,5,RESISTANCE,20k
+ONV=16,5,RESISTANCE,10k
 Style=8192
 Height=-16
 Color=#000000
@@ -1199,7 +1199,7 @@ Color=#000000
 Font=Arial
 
 [Attr]
-ONV=8,23,RESISTANCE,4k
+ONV=8,23,RESISTANCE,2033
 Style=8192
 Height=-16
 Color=#000000
@@ -1319,16 +1319,6 @@ Color=#800000
 Font=Arial
 CBorder=NONE
 
-[Grid Text]
-Text="Dynamic DCþTemperature=27þDisplaying DC Voltages, Currentsþ"
-BannerDC=True
-Grid=2,10
-Height=-15
-Color=#800000
-Font=Arial
-CFill=#C0C0C0
-CBorder=#000000
-
 [Schematic]
 CurrentSection 0=0
 CurrentSection 1=0
@@ -1337,10 +1327,10 @@ CurrentSection 3=0
 Splitter.xs=0
 Splitter.ys=0
 TextQuad=4099
-Scale=1
+Scale=0.5
 PrinterScale=1
 GridUser=10
-ShapeGroups="Main","Euro","DeMorgan","Polarity","Electrolytic","Main1","Main11","Main2","Rus"
+ShapeGroups="Main","Euro","DeMorgan","Polarity","Electrolytic"
 CalcRMS=False
 CalcAVG=False
 CalcPeak=False
@@ -1416,7 +1406,7 @@ FONT=Yes
 
 [Section]
 Index=0
-Name="uThermometer"
+Name="circuit1"
 Type=Main
 Enable=True
 CurrentPage 0=0
@@ -1437,9 +1427,9 @@ Name=Main
 Scale 0=1
 Scale 1=1
 Scale 2=1
-SB 3=619,608
+SB 3=739,720
 Scale 3=0.5
-Grid=159,108
+Grid=156,118
 
 [Page]
 Index=1

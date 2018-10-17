@@ -1,0 +1,456 @@
+********************************************************************************
+***                            Micro-Cap 9.0.6.0                             ***
+***                                                                          ***
+***                                                                          ***
+***                        Dynamic DC of uThermometer                        ***
+********************************************************************************
+
+*****************************************************
+***                Temperature=27                 ***
+*****************************************************
+
+Temperature=27 
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage  Node         Voltage 
+VC            5.000   VE           -5.000   3           985.464m 
+4           982.993m  5             1.228   6           985.464m 
+7           990.366m  8           613.997m  9           495.188m 
+10          492.883m  11          611.647m  12          975.466m 
+13          247.354m  14          495.188m  15          490.285m 
+16            2.955   17          492.600m 
+
+
+Operating point for devices of type Diode
+=========================================
+Instance:             D5_X1          D3_X1          D4_X1          D1_X1
+ID                 -10.010p        -1.182p        -5.588p       -19.924p
+VD                 -10.000         -1.172         -5.578        -19.914 
+REQ                  1.000T         1.000T         1.000T         1.000T
+CAP                  0.000          0.000          0.000          0.000 
+
+DC Power Terms:
+PD                 100.100p         1.386p        31.165p       396.774p
+PS                   0.000          0.000          0.000          0.000 
+
+DC Pin Currents:
+Id                 -10.010p        -1.182p        -5.588p       -19.924p
+
+Condition:
+State                   HOT            HOT            HOT            HOT
+
+
+Instance:             D2_X1          D5_X2          D3_X2          D4_X2
+ID                 -20.096p       -10.010p        -1.435p        -5.335p
+VD                 -20.086        -10.000         -1.425         -5.325 
+REQ                  1.000T         1.000T         1.000T         1.000T
+CAP                  0.000          0.000          0.000          0.000 
+
+DC Power Terms:
+PD                 403.641p       100.100p         2.044p        28.414p
+PS                   0.000          0.000          0.000          0.000 
+
+DC Pin Currents:
+Id                 -20.096p       -10.010p        -1.435p        -5.335p
+
+Condition:
+State                   HOT            HOT            HOT            HOT
+
+
+Instance:             D1_X2          D2_X2          D5_X3          D3_X3
+ID                 -19.974p       -20.046p       -10.010p        -2.163p
+VD                 -19.964        -20.036        -10.000         -2.153 
+REQ                  1.000T         1.000T         1.000T         1.000T
+CAP                  0.000          0.000          0.000          0.000 
+
+DC Power Terms:
+PD                 398.746p       401.657p       100.100p         4.655p
+PS                   0.000          0.000          0.000          0.000 
+
+DC Pin Currents:
+Id                 -19.974p       -20.046p       -10.010p        -2.163p
+
+Condition:
+State                   HOT            HOT            HOT            HOT
+
+
+Instance:             D4_X3          D1_X3          D2_X3          D5_X4
+ID                  -4.607p       -20.071p       -19.949p       -10.010p
+VD                  -4.597        -20.061        -19.939        -10.000 
+REQ                  1.000T         1.000T         1.000T         1.000T
+CAP                  0.000          0.000          0.000          0.000 
+
+DC Power Terms:
+PD                  21.182p       402.644p       397.764p       100.100p
+PS                   0.000          0.000          0.000          0.000 
+
+DC Pin Currents:
+Id                  -4.607p       -20.071p       -19.949p       -10.010p
+
+Condition:
+State                   HOT            HOT            HOT            HOT
+
+
+Instance:             D3_X4          D4_X4          D1_X4          D2_X4
+ID                  -1.420p        -5.350p       -15.107p       -24.913p
+VD                  -1.410         -5.340        -15.097        -24.903 
+REQ                  1.000T         1.000T         1.000T         1.000T
+CAP                  0.000          0.000          0.000          0.000 
+
+DC Power Terms:
+PD                   2.001p        28.573p       228.079p       620.394p
+PS                   0.000          0.000          0.000          0.000 
+
+DC Pin Currents:
+Id                  -1.420p        -5.350p       -15.107p       -24.913p
+
+Condition:
+State                   HOT            HOT            HOT            HOT
+
+
+Instance:                D1
+Using model:    BZX585-B3V0
+ID                -899.513u
+VD                  -2.955 
+REQ                 28.782 
+CAP                196.366p
+
+DC Power Terms:
+PD                   2.658m
+PS                   0.000 
+
+DC Pin Currents:
+Id                -899.513u
+
+Condition:
+State                 ZENER
+
+
+
+Operating point for devices of type Bipolar Junction Transistors PNP
+====================================================================
+Instance:             Q1_X1          Q2_X1          Q1_X2          Q2_X2
+IB                  47.421n        41.860n        47.438n        42.004n
+IC                   7.488u         7.388u         7.491u         7.413u
+VBE               -647.619m      -645.344m      -647.628m      -645.432m
+VBC                  5.943          5.946          5.572          5.575 
+VCE                 -6.591         -6.592         -6.220         -6.220 
+BETADC             157.915        176.496        157.914        176.494 
+GM                 289.531u       285.651u       289.632u       286.627u
+RPI                545.346K       617.784K       545.156K       615.681K
+RX                   0.000          0.000          0.000          0.000 
+RO                   1.000T         1.000T         1.000T         1.000T
+CPI                  0.000          0.000          0.000          0.000 
+CMU                  0.000          0.000          0.000          0.000 
+CBX                  0.000          0.000          0.000          0.000 
+CJS                  0.000          0.000          0.000          0.000 
+BETAAC             157.895        176.471        157.895        176.471 
+FT                4608.030T      4546.276T      4609.643T      4561.806T
+
+DC Power Terms:
+PD                  49.387u        48.727u        46.622u        46.139u
+PS                   0.000          0.000          0.000          0.000 
+
+DC Pin Currents:
+Ib                 -47.421n       -41.860n       -47.438n       -42.004n
+Ic                  -7.488u        -7.388u        -7.491u        -7.413u
+Ie                   7.536u         7.430u         7.539u         7.455u
+Is                   0.000          0.000          0.000          0.000 
+
+Condition:
+State                   HOT            HOT            HOT            HOT
+
+
+Instance:             Q1_X3          Q2_X3          Q1_X4          Q2_X4
+IB                  47.440n        42.053n        47.446n        42.048n
+IC                   7.491u         7.422u         7.492u         7.421u
+VBE               -647.629m      -645.462m      -647.633m      -645.459m
+VBC                  5.453          5.456          5.451          5.453 
+VCE                 -6.101         -6.101         -6.098         -6.099 
+BETADC             157.913        176.494        157.913        176.494 
+GM                 289.641u       286.963u       289.683u       286.929u
+RPI                545.140K       614.960K       545.061K       615.033K
+RX                   0.000          0.000          0.000          0.000 
+RO                   1.000T         1.000T         1.000T         1.000T
+CPI                  0.000          0.000          0.000          0.000 
+CMU                  0.000          0.000          0.000          0.000 
+CBX                  0.000          0.000          0.000          0.000 
+CJS                  0.000          0.000          0.000          0.000 
+BETAAC             157.895        176.471        157.895        176.471 
+FT                4609.779T      4567.152T      4610.441T      4566.609T
+
+DC Power Terms:
+PD                  45.734u        45.311u        45.721u        45.287u
+PS                   0.000          0.000          0.000          0.000 
+
+DC Pin Currents:
+Ib                 -47.440n       -42.053n       -47.446n       -42.048n
+Ic                  -7.491u        -7.422u        -7.492u        -7.421u
+Ie                   7.539u         7.464u         7.540u         7.463u
+Is                   0.000          0.000          0.000          0.000 
+
+Condition:
+State                   HOT            HOT            HOT            HOT
+
+
+
+Operating point for devices of type Resistor
+============================================
+Instance:             Rc1_X1         Rc2_X1         Re1_X1         Re2_X1
+DC Power Terms:
+PD                  297.501n       289.580n       104.810n       101.884n
+
+DC Pin Currents:
+Ir                   -7.488u        -7.388u        -7.536u        -7.430u
+
+
+Instance:              Re_X1          Rp_X1          R2_X1         Ro2_X1
+DC Power Terms:
+PD                  204.050n         2.727m       543.184f        60.700m
+
+DC Pin Currents:
+Ir                  124.079n       272.748u        -2.331n        49.275m
+
+
+Instance:          ROUTAC_X1             R1             R2             R3
+Using model:             N\A          C6_1%          C6_1%          C6_1%
+DC Power Terms:
+PD                  368.217n        24.037u        37.648u        37.699u
+
+DC Pin Currents:
+Ir                   85.816u        -4.903m        61.358u        61.400u
+
+
+Instance:                 R4             R5             R6            R7*
+Using model:           C6_1%          C6_1%          C6_1%          C6_1%
+DC Power Terms:
+PD                    5.982u         1.752f         2.404m        12.010u
+
+DC Pin Currents:
+Ir                  -24.458u       -41.860n        -4.903m       -24.505u
+
+
+Instance:             Rc1_X2         Rc2_X2         Re1_X2         Re2_X2
+DC Power Terms:
+PD                  297.709n       291.562n       104.883n       102.582n
+
+DC Pin Currents:
+Ir                   -7.491u        -7.413u        -7.539u        -7.455u
+
+
+Instance:              Re_X2          Rp_X2          R2_X2         Ro2_X2
+DC Power Terms:
+PD                  122.305n         2.727m       341.446f        38.203m
+
+DC Pin Currents:
+Ir                   96.062n       272.748u        -1.848n        39.091m
+
+
+Instance:          ROUTAC_X2             R8             R9            R10
+Using model:             N\A          C6_1%          C6_1%          C6_1%
+DC Power Terms:
+PD                   66.182n         6.028u         1.768f        13.271u
+
+DC Pin Currents:
+Ir                   36.382u       -24.553u       -42.053n       -36.429u
+
+
+Instance:                R11            R12         Rc1_X3         Rc2_X3
+Using model:           C6_1%          C6_1%            N\A            N\A
+DC Power Terms:
+PD                   13.236u        24.037u       297.727n       292.246n
+
+DC Pin Currents:
+Ir                  -36.382u         4.903m        -7.491u        -7.422u
+
+
+Instance:             Re1_X3         Re2_X3          Re_X3          Rp_X3
+DC Power Terms:
+PD                  104.889n       102.822n       100.552n         2.727m
+
+DC Pin Currents:
+Ir                   -7.539u        -7.464u        87.101n       272.748u
+
+
+Instance:              R2_X3         Ro2_X3      ROUTAC_X3            R13
+Using model:             N\A            N\A            N\A          C6_1%
+DC Power Terms:
+PD                   21.156f         2.387m       185.942n         2.092m
+
+DC Pin Currents:
+Ir                 -459.953p         9.772m       -60.982u         1.023m
+
+
+Instance:                R14         Rc1_X4         Rc2_X4         Re1_X4
+Using model:           C6_1%            N\A            N\A            N\A
+DC Power Terms:
+PD                  303.111u       297.812n       292.177n       104.920n
+
+DC Pin Currents:
+Ir                 -123.108u        -7.492u        -7.421u        -7.540u
+
+
+Instance:             Re2_X4          Re_X4          Rp_X4          R2_X4
+DC Power Terms:
+PD                  102.798n       100.101n         2.727m       662.361f
+
+DC Pin Currents:
+Ir                   -7.463u        86.906n       272.748u        -2.574n
+
+
+Instance:             Ro2_X4      ROUTAC_X4            R15           R16*
+Using model:             N\A            N\A          C6_1%          C6_1%
+DC Power Terms:
+PD                   61.059m         1.202m         2.404m        60.664u
+
+DC Pin Currents:
+Ir                   49.420m         4.903m        -4.903m      -123.150u
+
+
+
+Operating point for devices of type Capacitor
+=============================================
+Instance:              C1_X1          Ce_X1          C3_X1          C1_X2
+DC Power Terms:
+PS                    0.000          0.000          0.000          0.000 
+
+DC Pin Currents:
+Ic                    0.000          0.000          0.000          0.000 
+
+
+Instance:              Ce_X2          C3_X2          C1_X3          Ce_X3
+DC Power Terms:
+PS                    0.000          0.000          0.000          0.000 
+
+DC Pin Currents:
+Ic                    0.000          0.000          0.000          0.000 
+
+
+Instance:              C3_X3          C1_X4          Ce_X4          C3_X4
+DC Power Terms:
+PS                    0.000          0.000          0.000          0.000 
+
+DC Pin Currents:
+Ic                    0.000          0.000          0.000          0.000 
+
+
+
+Operating point for devices of type Opamp
+=========================================
+Instance:                X1             X2             X3             X4
+Using model:          LM324          LM324          LM324          LM324
+Condition:
+State                   LIN            LIN            LIN            LIN
+
+
+
+Operating point for devices of type SPICE Poly
+==============================================
+Instance:             I3_X1          V2_X1          V1_X1          I1_X1
+DC Power Terms:
+PG                  60.805m         0.000         14.729f       -22.846p
+
+DC Pin Currents:
+ISource            -49.360m       -85.692u      -171.631f        98.026n
+
+
+Instance:             I2_X1          I3_X2          V2_X2          V1_X2
+DC Power Terms:
+PG                  23.389p        38.239m         0.000          2.647f
+
+DC Pin Currents:
+ISource            100.356n       -39.128m       -36.286u       -72.764f
+
+
+Instance:             I1_X2          I2_X2          I3_X3          V2_X3
+DC Power Terms:
+PG                 -14.023p        14.365p         2.372m         0.000 
+
+DC Pin Currents:
+ISource             75.892n        77.739n        -9.711m        61.069u
+
+
+Instance:             V1_X3          I1_X3          I2_X3          I3_X4
+DC Power Terms:
+PG                   7.438f        -3.165p         3.186p        67.116m
+
+DC Pin Currents:
+ISource            121.964f        68.812n        69.272n       -54.323m
+
+
+Instance:             V2_X4          V1_X4          I1_X4          I2_X4
+DC Power Terms:
+PG                   0.000         48.073p       -17.670p        18.332p
+
+DC Pin Currents:
+ISource             -4.903m        -9.805p        68.658n        71.231n
+
+
+
+Operating point for devices of type SPICE Source
+================================================
+Instance:                V1             V2         IEE_X1         VS1_X1
+DC Power Terms:
+PG                  10.870m         5.753m       -50.634u         0.000 
+
+DC Pin Currents:
+ISource             -2.174m         1.151m       -15.090u        -2.331n
+
+
+Instance:             VC_X1          VE_X1         VLP_X1         VLN_X1
+DC Power Terms:
+PG                  -3.074p        -3.632p       398.484p       401.916p
+
+DC Pin Currents:
+ISource              1.182p         5.588p       -19.924p       -20.096p
+
+
+Instance:            VS2_X1         IEE_X2         VS1_X2          VC_X2
+DC Power Terms:
+PG                   0.000        -56.238u         0.000         -3.730p
+
+DC Pin Currents:
+ISource             85.816u       -15.090u        -1.848n         1.435p
+
+
+Instance:             VE_X2         VLP_X2         VLN_X2         VS2_X2
+DC Power Terms:
+PG                  -3.468p       399.472p       400.928p         0.000 
+
+DC Pin Currents:
+ISource              5.335p       -19.974p       -20.046p        36.382u
+
+
+Instance:            IEE_X3         VS1_X3          VC_X3          VE_X3
+DC Power Terms:
+PG                 -58.030u         0.000         -5.623p        -2.995p
+
+DC Pin Currents:
+ISource            -15.090u      -459.953p         2.163p         4.607p
+
+
+Instance:            VLP_X3         VLN_X3         VS2_X3         IEE_X4
+DC Power Terms:
+PG                 401.420p       398.980p         0.000        -58.069u
+
+DC Pin Currents:
+ISource            -20.071p       -19.949p       -60.982u       -15.090u
+
+
+Instance:            VS1_X4          VC_X4          VE_X4         VLP_X4
+DC Power Terms:
+PG                   0.000         -3.691p        -3.478p       302.146p
+
+DC Pin Currents:
+ISource             -2.574n         1.420p         5.350p       -15.107p
+
+
+Instance:            VLN_X4         VS2_X4
+DC Power Terms:
+PG                 498.254p         0.000 
+
+DC Pin Currents:
+ISource            -24.913p         4.903m
+
+

@@ -1,0 +1,49 @@
+Removed Pin From Net: NetName=NetDA1_13 Pin=R4-1
+Change Component DesignItemId : Designator=R4 Old DesignItemId=Resistor R0805_10k_5% New DesignItemId=Resistor R0805_15k_5%
+Change Component DesignItemId : Designator=R8 Old DesignItemId=Resistor R0805_10k_5% New DesignItemId=Resistor R0805_100_5%
+Change Component Footprint: Designator=R1 Old Footprint=SMD0805 New Footprint=Resistor SMD0805
+Change Component Footprint: Designator=R2 Old Footprint=SMD0805 New Footprint=Resistor SMD0805
+Change Component Footprint: Designator=R3 Old Footprint=SMD0805 New Footprint=Resistor SMD0805
+Change Component Footprint: Designator=R4 Old Footprint=SMD0805 New Footprint=Resistor SMD0805
+Change Component Footprint: Designator=R5 Old Footprint=SMD0805 New Footprint=Resistor SMD0805
+Change Component Footprint: Designator=R6 Old Footprint=SMD0805 New Footprint=Resistor SMD0805
+Change Component Footprint: Designator=R7 Old Footprint=SMD0805 New Footprint=Resistor SMD0805
+Change Component Footprint: Designator=R8 Old Footprint=SMD0805 New Footprint=Resistor SMD0805
+Change Component Comment : Designator=R4 Old Comment=10ê New Comment=15ê
+Change Component Comment : Designator=R8 Old Comment=10ê New Comment=100
+Change Component Designator: OldDesignator=R5 NewDesignator=R6
+Change Component Designator: OldDesignator=R6 NewDesignator=R7
+Change Component Designator: OldDesignator=R7 NewDesignator=R8
+Change Component Designator: OldDesignator=R8 NewDesignator=R12
+Added Component: Designator=R5(Resistor 3296W)
+Added Component: Designator=R9(Resistor SMD0805)
+Added Component: Designator=R10(Resistor SMD0805)
+Added Component: Designator=R11(Resistor 3296W)
+Added Component: Designator=VD1(Zener BZV55C)
+Added Component: Designator=Ñ1(Capacitor SMD0805)
+Added Pin To Net: NetName=NetDA1_13 Pin=R5-1
+Added Pin To Net: NetName=NetDA1_13 Pin=R5-2
+Added Pin To Net: NetName=VCC Pin=R9-2
+Added Pin To Net: NetName=GND Pin=R11-1
+Added Pin To Net: NetName=GND Pin=VD1-1
+Added Pin To Net: NetName=GND Pin=Ñ1-1
+Added Pin To Net: NetName=NetDA1_5 Pin=DA1-5
+Added Pin To Net: NetName=NetDA1_5 Pin=R11-2
+Added Pin To Net: NetName=NetDA1_5 Pin=Ñ1-2
+Added Net: Name=NetDA1_5
+Added Pin To Net: NetName=NetR4_1 Pin=R4-1
+Added Pin To Net: NetName=NetR4_1 Pin=R5-3
+Added Net: Name=NetR4_1
+Added Pin To Net: NetName=NetR9_1 Pin=R9-1
+Added Pin To Net: NetName=NetR9_1 Pin=R10-1
+Added Pin To Net: NetName=NetR9_1 Pin=VD1-2
+Added Net: Name=NetR9_1
+Added Pin To Net: NetName=NetR10_2 Pin=R10-2
+Added Pin To Net: NetName=NetR10_2 Pin=R11-3
+Added Net: Name=NetR10_2
+Added Member To Class: ClassName=uThermometer Member=Component R9 2ê
+Added Member To Class: ClassName=uThermometer Member=Component R10 20ê
+Added Member To Class: ClassName=uThermometer Member=Component R11 10ê
+Added Member To Class: ClassName=uThermometer Member=Component R12 100
+Added Member To Class: ClassName=uThermometer Member=Component VD1 BZV55C3V6
+Added Member To Class: ClassName=uThermometer Member=Component Ñ1 0,1

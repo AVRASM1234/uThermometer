@@ -1,0 +1,17 @@
+Change Physical Footprint: Designator=C1 Old Footprint=Capacitor SMD0805 New Footprint=Capacitor SMD0805
+Change Physical Footprint: Designator=C2 Old Footprint=Capacitor SMD0805 New Footprint=Capacitor SMD0805
+Change Physical Footprint: Designator=DA1 Old Footprint=IC LM324D New Footprint=IC LM324D
+Change Physical Footprint: Designator=R1 Old Footprint=Resistor SMD0805 New Footprint=Resistor SMD0805
+Change Physical Footprint: Designator=R2 Old Footprint=Resistor SMD0805 New Footprint=Resistor SMD0805
+Change Physical Footprint: Designator=R3 Old Footprint=Resistor SMD0805 New Footprint=Resistor SMD0805
+Change Physical Footprint: Designator=R4 Old Footprint=Resistor SMD0805 New Footprint=Resistor SMD0805
+Change Physical Footprint: Designator=R5 Old Footprint=Resistor 3296W New Footprint=Resistor 3296W
+Change Physical Footprint: Designator=R6 Old Footprint=Resistor SMD0805 New Footprint=Resistor SMD0805
+Change Physical Footprint: Designator=R7 Old Footprint=Resistor SMD0805 New Footprint=Resistor SMD0805
+Change Physical Footprint: Designator=R8 Old Footprint=Resistor SMD0805 New Footprint=Resistor SMD0805
+Change Physical Footprint: Designator=R9 Old Footprint=Resistor SMD0805 New Footprint=Resistor SMD0805
+Change Physical Footprint: Designator=R10 Old Footprint=Resistor SMD0805 New Footprint=Resistor SMD0805
+Change Physical Footprint: Designator=R11 Old Footprint=Resistor 3296W New Footprint=Resistor 3296W
+Change Physical Footprint: Designator=R12 Old Footprint=Resistor SMD0805 New Footprint=Resistor SMD0805
+Change Physical Footprint: Designator=VD1 Old Footprint=Zener BZV55C New Footprint=Zener BZV55C
+Change Physical Footprint: Designator=X1 Old Footprint=Terminal KLS2-301-5.00-04P New Footprint=Terminal KLS2-301-5.00-04P
