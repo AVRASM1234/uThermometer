@@ -1,0 +1,57 @@
+Removed Pin From Net: NetName=GND Pin=C6-1
+Removed Pin From Net: NetName=VCC Pin=C6-2
+Removed Pin From Net: NetName=GND Pin=C7-1
+Removed Pin From Net: NetName=NetC7_2 Pin=C7-2
+Removed Pin From Net: NetName=RG_C Pin=R9-1
+Removed Pin From Net: NetName=RG_D Pin=R9-2
+Removed Pin From Net: NetName=VCC Pin=R10-1
+Removed Pin From Net: NetName=MCU_R Pin=R10-2
+Removed Pin From Net: NetName=RG_R Pin=R11-2
+Removed Pin From Net: NetName=7SEG_1 Pin=R12-1
+Removed Pin From Net: NetName=NetDA1_8 Pin=R13-1
+Removed Pin From Net: NetName=NetDA1_3 Pin=R13-2
+Removed Pin From Net: NetName=VCC Pin=R16-2
+Change Component DesignItemId : Designator=R9 Old DesignItemId=Resistor R0805_1k_5% New DesignItemId=Resistor R0805_2k_5%
+Change Component Comment : Designator=R9 Old Comment=1ê New Comment=2ê
+Change Component Designator: OldDesignator=R9 NewDesignator=R17
+Change Component Designator: OldDesignator=R10 NewDesignator=R9
+Change Component Designator: OldDesignator=R17 NewDesignator=R16
+Change Component Designator: OldDesignator=R25 NewDesignator=R26
+Change Component Designator: OldDesignator=R26 NewDesignator=R25
+Added Component: Designator=C6(Capacitor SMD0805)
+Added Component: Designator=C7(Capacitor SMD0805)
+Added Component: Designator=R10(Resistor SMD0805)
+Added Component: Designator=R13(Resistor SMD0805)
+Added Pin To Net: NetName=GND Pin=C6-1
+Added Pin To Net: NetName=VCC Pin=C6-2
+Added Pin To Net: NetName=GND Pin=C7-1
+Added Pin To Net: NetName=NetC7_2 Pin=C7-2
+Added Pin To Net: NetName=RG_R Pin=DD2-12
+Added Pin To Net: NetName=7SEG_1 Pin=R9-1
+Added Pin To Net: NetName=RG_C Pin=R10-1
+Added Pin To Net: NetName=RG_D Pin=R10-2
+Added Pin To Net: NetName=MCU_R Pin=R11-2
+Added Pin To Net: NetName=VCC Pin=R12-1
+Added Pin To Net: NetName=RG_R Pin=R12-2
+Added Pin To Net: NetName=NetDA1_8 Pin=R13-1
+Added Pin To Net: NetName=NetDA1_3 Pin=R13-2
+Added Pin To Net: NetName=VCC Pin=R17-2
+Change Net Name : Old Net Name=NetR17_2 New Net Name=NetR16_2
+Change Net Name : Old Net Name=NetR26_2 New Net Name=NetR25_2
+Added Pin To Net: NetName=NetHG1_17 Pin=HG1-17
+Added Pin To Net: NetName=NetHG1_17 Pin=VT1-3
+Added Net: Name=NetHG1_17
+Added Pin To Net: NetName=NetHG2_17 Pin=HG2-17
+Added Pin To Net: NetName=NetHG2_17 Pin=VT2-3
+Added Net: Name=NetHG2_17
+Added Pin To Net: NetName=NetHG3_17 Pin=HG3-17
+Added Pin To Net: NetName=NetHG3_17 Pin=VT3-3
+Added Net: Name=NetHG3_17
+Added Pin To Net: NetName=NetR9_2 Pin=R9-2
+Added Pin To Net: NetName=NetR9_2 Pin=VT1-1
+Added Net: Name=NetR9_2
+Added Pin To Net: NetName=NetR17_1 Pin=R17-1
+Added Pin To Net: NetName=NetR17_1 Pin=R19-1
+Added Pin To Net: NetName=NetR17_1 Pin=VD1-2
+Added Net: Name=NetR17_1
+Added Member To Class: ClassName=uThermometer Member=Component R17 2ê

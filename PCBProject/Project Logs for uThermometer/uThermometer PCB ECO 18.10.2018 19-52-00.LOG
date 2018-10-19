@@ -1,0 +1,3 @@
+Removed Pin From Net: NetName=RG_R Pin=DD2-12
+Added Pin To Net: NetName=RG_R Pin=DD2-9
+Added Pin To Net: NetName=NetDD2_12 Pin=DD2-12

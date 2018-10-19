@@ -1,0 +1,103 @@
+Added Component: Designator=DD?(IC ATTiny13A)
+Added Component: Designator=DD?(IC 74HC595D)
+Added Component: Designator=R?(Resistor SMD0805)
+Added Component: Designator=R?(Resistor SMD0805)
+Added Component: Designator=R?(Resistor SMD0805)
+Added Component: Designator=R?(Resistor SMD0805)
+Added Component: Designator=R?(Resistor SMD0805)
+Added Component: Designator=R?(Resistor SMD0805)
+Added Component: Designator=R?(Resistor SMD0805)
+Added Component: Designator=R?(Resistor SMD0805)
+Added Component: Designator=R?(Resistor SMD0805)
+Added Component: Designator=R?(Resistor SMD0805)
+Added Component: Designator=R?(Resistor SMD0805)
+Added Component: Designator=VT?(Transistor SOT23)
+Added Component: Designator=VT?(Transistor SOT23)
+Added Component: Designator=VT?(Transistor SOT23)
+Added Pin To Net: NetName=GND Pin=DD?-8
+Added Pin To Net: NetName=VCC Pin=DD?-16
+Added Pin To Net: NetName=VCC Pin=VT?-2
+Added Pin To Net: NetName=VCC Pin=VT?-2
+Added Pin To Net: NetName=VCC Pin=VT?-2
+Added Pin To Net: NetName=7SEG_1 Pin=R?-1
+Added Net: Name=7SEG_1
+Added Pin To Net: NetName=7SEG_2 Pin=R?-1
+Added Net: Name=7SEG_2
+Added Pin To Net: NetName=7SEG_3 Pin=R?-1
+Added Net: Name=7SEG_3
+Added Pin To Net: NetName=7SEG_A Pin=HG?-2
+Added Pin To Net: NetName=7SEG_A Pin=HG?-2
+Added Pin To Net: NetName=7SEG_A Pin=HG?-2
+Added Pin To Net: NetName=7SEG_A Pin=R?-1
+Added Net: Name=7SEG_A
+Added Pin To Net: NetName=7SEG_B Pin=HG?-15
+Added Pin To Net: NetName=7SEG_B Pin=HG?-15
+Added Pin To Net: NetName=7SEG_B Pin=HG?-15
+Added Pin To Net: NetName=7SEG_B Pin=R?-1
+Added Net: Name=7SEG_B
+Added Pin To Net: NetName=7SEG_C Pin=HG?-13
+Added Pin To Net: NetName=7SEG_C Pin=HG?-13
+Added Pin To Net: NetName=7SEG_C Pin=HG?-13
+Added Pin To Net: NetName=7SEG_C Pin=R?-1
+Added Net: Name=7SEG_C
+Added Pin To Net: NetName=7SEG_D Pin=HG?-11
+Added Pin To Net: NetName=7SEG_D Pin=HG?-11
+Added Pin To Net: NetName=7SEG_D Pin=HG?-11
+Added Pin To Net: NetName=7SEG_D Pin=R?-1
+Added Net: Name=7SEG_D
+Added Pin To Net: NetName=7SEG_E Pin=HG?-5
+Added Pin To Net: NetName=7SEG_E Pin=HG?-5
+Added Pin To Net: NetName=7SEG_E Pin=HG?-5
+Added Pin To Net: NetName=7SEG_E Pin=R?-1
+Added Net: Name=7SEG_E
+Added Pin To Net: NetName=7SEG_F Pin=HG?-3
+Added Pin To Net: NetName=7SEG_F Pin=HG?-3
+Added Pin To Net: NetName=7SEG_F Pin=HG?-3
+Added Pin To Net: NetName=7SEG_F Pin=R?-1
+Added Net: Name=7SEG_F
+Added Pin To Net: NetName=7SEG_G Pin=HG?-14
+Added Pin To Net: NetName=7SEG_G Pin=HG?-14
+Added Pin To Net: NetName=7SEG_G Pin=HG?-14
+Added Pin To Net: NetName=7SEG_G Pin=R?-1
+Added Net: Name=7SEG_G
+Added Pin To Net: NetName=7SEG_H Pin=HG?-10
+Added Pin To Net: NetName=7SEG_H Pin=HG?-10
+Added Pin To Net: NetName=7SEG_H Pin=HG?-10
+Added Pin To Net: NetName=7SEG_H Pin=R?-1
+Added Net: Name=7SEG_H
+Added Pin To Net: NetName=NetDD?_1 Pin=DD?-1
+Added Pin To Net: NetName=NetDD?_1 Pin=R?-2
+Added Net: Name=NetDD?_1
+Added Pin To Net: NetName=NetDD?_2 Pin=DD?-2
+Added Pin To Net: NetName=NetDD?_2 Pin=R?-2
+Added Net: Name=NetDD?_2
+Added Pin To Net: NetName=NetDD?_3 Pin=DD?-3
+Added Pin To Net: NetName=NetDD?_3 Pin=R?-2
+Added Net: Name=NetDD?_3
+Added Pin To Net: NetName=NetDD?_4 Pin=DD?-4
+Added Pin To Net: NetName=NetDD?_4 Pin=R?-2
+Added Net: Name=NetDD?_4
+Added Pin To Net: NetName=NetDD?_5 Pin=DD?-5
+Added Pin To Net: NetName=NetDD?_5 Pin=R?-2
+Added Net: Name=NetDD?_5
+Added Pin To Net: NetName=NetDD?_6 Pin=DD?-6
+Added Pin To Net: NetName=NetDD?_6 Pin=R?-2
+Added Net: Name=NetDD?_6
+Added Pin To Net: NetName=NetDD?_7 Pin=DD?-7
+Added Pin To Net: NetName=NetDD?_7 Pin=R?-2
+Added Net: Name=NetDD?_7
+Added Pin To Net: NetName=NetDD?_15 Pin=DD?-15
+Added Pin To Net: NetName=NetDD?_15 Pin=R?-2
+Added Net: Name=NetDD?_15
+Added Pin To Net: NetName=NetHG?_4 Pin=HG?-4
+Added Pin To Net: NetName=NetHG?_4 Pin=HG?-6
+Added Pin To Net: NetName=NetHG?_4 Pin=HG?-12
+Added Pin To Net: NetName=NetHG?_4 Pin=HG?-17
+Added Pin To Net: NetName=NetHG?_4 Pin=VT?-3
+Added Net: Name=NetHG?_4
+Added Pin To Net: NetName=NetR?_2 Pin=R?-2
+Added Pin To Net: NetName=NetR?_2 Pin=VT?-1
+Added Net: Name=NetR?_2
+Added Member To Class: ClassName=uThermometer Member=Component DD? ATTiny13A
+Added Member To Class: ClassName=uThermometer Member=Component R? 10ê
+Added Member To Class: ClassName=uThermometer Member=Component VT? BC857B

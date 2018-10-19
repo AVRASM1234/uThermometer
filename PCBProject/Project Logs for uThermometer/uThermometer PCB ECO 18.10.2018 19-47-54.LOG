@@ -1,0 +1,43 @@
+Removed Pin From Net: NetName=ADC_T Pin=DA1-1
+Removed Pin From Net: NetName=NetC7_2 Pin=DA1-5
+Removed Pin From Net: NetName=NetDA1_13 Pin=DA1-13
+Removed Pin From Net: NetName=NetDA1_8 Pin=R13-1
+Removed Pin From Net: NetName=NetDA1_8 Pin=R15-2
+Removed Pin From Net: NetName=NetDA1_14 Pin=R22-1
+Removed Pin From Net: NetName=NetDA1_14 Pin=R23-1
+Removed Pin From Net: NetName=NetDA1_2 Pin=R23-2
+Removed Pin From Net: NetName=NetDA1_2 Pin=R24-1
+Removed Pin From Net: NetName=NetDA1_6 Pin=R26-2
+Removed Pin From Net: NetName=NetDA1_10 Pin=X1-2
+Removed Pin From Net: NetName=NetDA1_12 Pin=X1-3
+Removed Pin From Net: NetName=NetDA1_6 Pin=X1-4
+Added Pin To Net: NetName=NetC7_2 Pin=DA1-3
+Added Pin To Net: NetName=ADC_T Pin=DA1-7
+Added Pin To Net: NetName=NetDA1_13 Pin=DA1-9
+Added Pin To Net: NetName=RG_R Pin=DD2-12
+Added Pin To Net: NetName=NetDA1_14 Pin=R13-1
+Added Pin To Net: NetName=NetDA1_14 Pin=R15-2
+Added Pin To Net: NetName=NetDA1_8 Pin=R22-1
+Added Pin To Net: NetName=NetDA1_8 Pin=R23-1
+Added Pin To Net: NetName=NetDA1_6 Pin=R23-2
+Added Pin To Net: NetName=NetDA1_6 Pin=R24-1
+Added Pin To Net: NetName=NetDA1_2 Pin=R26-2
+Added Pin To Net: NetName=NetDA1_12 Pin=X1-2
+Added Pin To Net: NetName=NetDA1_10 Pin=X1-3
+Added Pin To Net: NetName=NetDA1_2 Pin=X1-4
+Change Net Name : Old Net Name=NetDA1_13 New Net Name=NetDA1_9
+Added Pin To Net: NetName=NetDA1_1 Pin=DA1-1
+Added Pin To Net: NetName=NetDA1_1 Pin=X1-1
+Added Net: Name=NetDA1_1
+Added Pin To Net: NetName=NetDA1_5 Pin=DA1-5
+Added Pin To Net: NetName=NetDA1_5 Pin=R13-2
+Added Pin To Net: NetName=NetDA1_5 Pin=R14-1
+Added Net: Name=NetDA1_5
+Added Pin To Net: NetName=NetDA1_13 Pin=DA1-13
+Added Pin To Net: NetName=NetDA1_13 Pin=R15-1
+Added Pin To Net: NetName=NetDA1_13 Pin=R18-2
+Added Net: Name=NetDA1_13
+Added Member To Class: ClassName=uThermometer Member=Component C6 0,1
+Added Member To Class: ClassName=uThermometer Member=Component C7 0,1
+Added Member To Class: ClassName=uThermometer Member=Component R10 1ê
+Added Member To Class: ClassName=uThermometer Member=Component R13 10ê

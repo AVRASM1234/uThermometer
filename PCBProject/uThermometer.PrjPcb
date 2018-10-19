@@ -73,7 +73,7 @@ GenerateBOM=0
 [OutputGroup1]
 Name=Netlist Outputs
 Description=
-TargetPrinter=HP LaserJet Pro MFP M125-M126 PCLmS
+TargetPrinter=EPSON Stylus Photo R340 Series
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=CadnetixNetlist
 OutputName1=Cadnetix Netlist
@@ -204,7 +204,7 @@ OutputDefault25=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=HP LaserJet Pro MFP M125-M126 PCLmS
+TargetPrinter=EPSON Stylus Photo R340 Series
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=AdvSimNetlist
 OutputName1=Mixed Sim
@@ -225,7 +225,7 @@ OutputDefault3=0
 [OutputGroup3]
 Name=Documentation Outputs
 Description=
-TargetPrinter=HP LaserJet Pro MFP M125-M126 PCLmS
+TargetPrinter=EPSON Stylus Photo R340 Series
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=Assembler Source Print
 OutputName1=Assembler Source Prints
@@ -253,10 +253,28 @@ OutputDefault4=0
 PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
 OutputType5=Composite
 OutputName5=Composite Drawing
-OutputDocumentPath5=
+OutputDocumentPath5=D:\AVRASM1234\!Electronics\!Projects\uThermometer\PCBProject\uThermometer.PcbDoc
 OutputVariantName5=
 OutputDefault5=0
-PageOptions5=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
+PageOptions5=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=2.05|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
+Configuration5_Name1=OutputConfigurationParameter1
+Configuration5_Item1=DesignatorDisplayMode=Physical|PrintArea=DesignExtent|PrintAreaLowerLeftCornerX=0|PrintAreaLowerLeftCornerY=0|PrintAreaUpperRightCornerX=0|PrintAreaUpperRightCornerY=0|Record=PcbPrintView
+Configuration5_Name2=OutputConfigurationParameter2
+Configuration5_Item2=IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|Index=0|Mirror=False|Name=Multilayer Composite Print|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False
+Configuration5_Name3=OutputConfigurationParameter3
+Configuration5_Item3=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=TopOverlay|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration5_Name4=OutputConfigurationParameter4
+Configuration5_Item4=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=BottomOverlay|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration5_Name5=OutputConfigurationParameter5
+Configuration5_Item5=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=TopLayer|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration5_Name6=OutputConfigurationParameter6
+Configuration5_Item6=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=BottomLayer|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration5_Name7=OutputConfigurationParameter7
+Configuration5_Item7=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration5_Name8=OutputConfigurationParameter8
+Configuration5_Item8=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical15|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration5_Name9=OutputConfigurationParameter9
+Configuration5_Item9=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=MultiLayer|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
 OutputType6=Logic Analyser Print
 OutputName6=Logic Analyser Prints
 OutputDocumentPath6=
@@ -339,7 +357,7 @@ PageOptions18=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup4]
 Name=Assembly Outputs
 Description=
-TargetPrinter=HP LaserJet Pro MFP M125-M126 PCLmS
+TargetPrinter=EPSON Stylus Photo R340 Series
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=Assembly
 OutputName1=Assembly Drawings
@@ -361,7 +379,7 @@ OutputDefault3=0
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=HP LaserJet Pro MFP M125-M126 PCLmS
+TargetPrinter=EPSON Stylus Photo R340 Series
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=CompositeDrill
 OutputName1=Composite Drill Drawing
@@ -417,7 +435,7 @@ OutputDefault9=0
 [OutputGroup6]
 Name=Report Outputs
 Description=
-TargetPrinter=HP LaserJet Pro MFP M125-M126 PCLmS
+TargetPrinter=EPSON Stylus Photo R340 Series
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=BOM_PartType
 OutputName1=Bill of Materials
@@ -454,7 +472,7 @@ OutputDefault6=0
 [OutputGroup7]
 Name=Other Outputs
 Description=
-TargetPrinter=HP LaserJet Pro MFP M125-M126 PCLmS
+TargetPrinter=EPSON Stylus Photo R340 Series
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=Text Print
 OutputName1=Text Print
@@ -634,7 +652,7 @@ PageOptions29=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup8]
 Name=Validation Outputs
 Description=
-TargetPrinter=HP LaserJet Pro MFP M125-M126 PCLmS
+TargetPrinter=EPSON Stylus Photo R340 Series
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=Design Rules Check
 OutputName1=Design Rules Check
@@ -663,7 +681,7 @@ OutputDefault4=0
 [OutputGroup9]
 Name=Export Outputs
 Description=
-TargetPrinter=HP LaserJet Pro MFP M125-M126 PCLmS
+TargetPrinter=EPSON Stylus Photo R340 Series
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=ExportIDF
 OutputName1=Export IDF
@@ -933,7 +951,7 @@ NetClassAutoNamedHarnessEnabled=0
 NetClassManualEnabled=1
 
 [LibraryUpdateOptions]
-SelectedOnly=0
+SelectedOnly=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
 ComponentLibraryIdentifier0=IVV_Connectors.IntLib
@@ -943,58 +961,106 @@ ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
 ComponentLibIdentifierKind1=Library Name And Type
 ComponentLibraryIdentifier1=IVV_IC.IntLib
-ComponentDesignItemID1=IC LM324D
-ComponentSymbolReference1=IC LM324D
+ComponentDesignItemID1=IC 74HC164D
+ComponentSymbolReference1=IC 74HC164D
 ComponentUpdate1=1
 ComponentIsDeviceSheet1=0
 ComponentLibIdentifierKind2=Library Name And Type
-ComponentLibraryIdentifier2=IVV_Lib.IntLib
-ComponentDesignItemID2=Zener BZV55C3V6
-ComponentSymbolReference2=Zener BZV55C3V6
+ComponentLibraryIdentifier2=IVV_IC.IntLib
+ComponentDesignItemID2=IC ATTiny13A
+ComponentSymbolReference2=IC ATTiny13A
 ComponentUpdate2=1
 ComponentIsDeviceSheet2=0
 ComponentLibIdentifierKind3=Library Name And Type
-ComponentLibraryIdentifier3=IVV_Passive.IntLib
-ComponentDesignItemID3=Capacitor C0805_100n
-ComponentSymbolReference3=Capacitor C0805_100n
+ComponentLibraryIdentifier3=IVV_IC.IntLib
+ComponentDesignItemID3=IC LM324D
+ComponentSymbolReference3=IC LM324D
 ComponentUpdate3=1
 ComponentIsDeviceSheet3=0
 ComponentLibIdentifierKind4=Library Name And Type
-ComponentLibraryIdentifier4=IVV_Passive.IntLib
-ComponentDesignItemID4=Resistor 3296W _10k_1%
-ComponentSymbolReference4=Resistor 3296W _10k_1%
+ComponentLibraryIdentifier4=IVV_Lib.IntLib
+ComponentDesignItemID4=Indicator LTS-3401VE
+ComponentSymbolReference4=Indicator LTS-3401VE
 ComponentUpdate4=1
 ComponentIsDeviceSheet4=0
 ComponentLibIdentifierKind5=Library Name And Type
-ComponentLibraryIdentifier5=IVV_Passive.IntLib
-ComponentDesignItemID5=Resistor R0805_100_5%
-ComponentSymbolReference5=Resistor R0805_100_5%
+ComponentLibraryIdentifier5=IVV_Lib.IntLib
+ComponentDesignItemID5=TestPoint 1
+ComponentSymbolReference5=TestPoint 1
 ComponentUpdate5=1
 ComponentIsDeviceSheet5=0
 ComponentLibIdentifierKind6=Library Name And Type
-ComponentLibraryIdentifier6=IVV_Passive.IntLib
-ComponentDesignItemID6=Resistor R0805_10k_5%
-ComponentSymbolReference6=Resistor R0805_10k_5%
+ComponentLibraryIdentifier6=IVV_Lib.IntLib
+ComponentDesignItemID6=Transistor BC857B
+ComponentSymbolReference6=Transistor BC857B
 ComponentUpdate6=1
 ComponentIsDeviceSheet6=0
 ComponentLibIdentifierKind7=Library Name And Type
-ComponentLibraryIdentifier7=IVV_Passive.IntLib
-ComponentDesignItemID7=Resistor R0805_15k_5%
-ComponentSymbolReference7=Resistor R0805_15k_5%
+ComponentLibraryIdentifier7=IVV_Lib.IntLib
+ComponentDesignItemID7=Zener BZV55C3V6
+ComponentSymbolReference7=Zener BZV55C3V6
 ComponentUpdate7=1
 ComponentIsDeviceSheet7=0
 ComponentLibIdentifierKind8=Library Name And Type
 ComponentLibraryIdentifier8=IVV_Passive.IntLib
-ComponentDesignItemID8=Resistor R0805_20k_5%
-ComponentSymbolReference8=Resistor R0805_20k_5%
+ComponentDesignItemID8=Capacitor C0805_100n
+ComponentSymbolReference8=Capacitor C0805_100n
 ComponentUpdate8=1
 ComponentIsDeviceSheet8=0
 ComponentLibIdentifierKind9=Library Name And Type
 ComponentLibraryIdentifier9=IVV_Passive.IntLib
-ComponentDesignItemID9=Resistor R0805_2k_5%
-ComponentSymbolReference9=Resistor R0805_2k_5%
+ComponentDesignItemID9=Capacitor C0805_10n
+ComponentSymbolReference9=Capacitor C0805_10n
 ComponentUpdate9=1
 ComponentIsDeviceSheet9=0
+ComponentLibIdentifierKind10=Library Name And Type
+ComponentLibraryIdentifier10=IVV_Passive.IntLib
+ComponentDesignItemID10=Resistor 3296W _10k_1%
+ComponentSymbolReference10=Resistor 3296W _10k_1%
+ComponentUpdate10=1
+ComponentIsDeviceSheet10=0
+ComponentLibIdentifierKind11=Library Name And Type
+ComponentLibraryIdentifier11=IVV_Passive.IntLib
+ComponentDesignItemID11=Resistor R0805_100_5%
+ComponentSymbolReference11=Resistor R0805_100_5%
+ComponentUpdate11=1
+ComponentIsDeviceSheet11=0
+ComponentLibIdentifierKind12=Library Name And Type
+ComponentLibraryIdentifier12=IVV_Passive.IntLib
+ComponentDesignItemID12=Resistor R0805_10k_5%
+ComponentSymbolReference12=Resistor R0805_10k_5%
+ComponentUpdate12=1
+ComponentIsDeviceSheet12=0
+ComponentLibIdentifierKind13=Library Name And Type
+ComponentLibraryIdentifier13=IVV_Passive.IntLib
+ComponentDesignItemID13=Resistor R0805_15k_5%
+ComponentSymbolReference13=Resistor R0805_15k_5%
+ComponentUpdate13=1
+ComponentIsDeviceSheet13=0
+ComponentLibIdentifierKind14=Library Name And Type
+ComponentLibraryIdentifier14=IVV_Passive.IntLib
+ComponentDesignItemID14=Resistor R0805_1k_5%
+ComponentSymbolReference14=Resistor R0805_1k_5%
+ComponentUpdate14=1
+ComponentIsDeviceSheet14=0
+ComponentLibIdentifierKind15=Library Name And Type
+ComponentLibraryIdentifier15=IVV_Passive.IntLib
+ComponentDesignItemID15=Resistor R0805_20k_5%
+ComponentSymbolReference15=Resistor R0805_20k_5%
+ComponentUpdate15=1
+ComponentIsDeviceSheet15=0
+ComponentLibIdentifierKind16=Library Name And Type
+ComponentLibraryIdentifier16=IVV_Passive.IntLib
+ComponentDesignItemID16=Resistor R0805_2k_5%
+ComponentSymbolReference16=Resistor R0805_2k_5%
+ComponentUpdate16=1
+ComponentIsDeviceSheet16=0
+ComponentLibIdentifierKind17=Library Name And Type
+ComponentLibraryIdentifier17=IVV_Passive.IntLib
+ComponentDesignItemID17=Resistor R0805_300_5%
+ComponentSymbolReference17=Resistor R0805_300_5%
+ComponentUpdate17=1
+ComponentIsDeviceSheet17=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1023,20 +1089,35 @@ ModelType0=PCBLIB
 ModelName0=Capacitor SMD0805
 ModelUpdate0=1
 ModelType1=PCBLIB
-ModelName1=IC LM324D
+ModelName1=IC 74HC164D
 ModelUpdate1=1
 ModelType2=PCBLIB
-ModelName2=Resistor 3296W
+ModelName2=IC ATTiny13A
 ModelUpdate2=1
 ModelType3=PCBLIB
-ModelName3=Resistor SMD0805
+ModelName3=IC LM324D
 ModelUpdate3=1
 ModelType4=PCBLIB
-ModelName4=Terminal KLS2-301-5.00-04P
+ModelName4=Indicator LTS3401VE
 ModelUpdate4=1
 ModelType5=PCBLIB
-ModelName5=Zener BZV55C
+ModelName5=Resistor 3296W
 ModelUpdate5=1
+ModelType6=PCBLIB
+ModelName6=Resistor SMD0805
+ModelUpdate6=1
+ModelType7=PCBLIB
+ModelName7=Terminal KLS2-301-5.00-04P
+ModelUpdate7=1
+ModelType8=PCBLIB
+ModelName8=TestPoint 1
+ModelUpdate8=1
+ModelType9=PCBLIB
+ModelName9=Transistor SOT23
+ModelUpdate9=1
+ModelType10=PCBLIB
+ModelName10=Zener BZV55C
+ModelUpdate10=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0

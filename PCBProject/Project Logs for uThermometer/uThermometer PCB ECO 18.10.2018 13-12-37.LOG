@@ -1,0 +1,158 @@
+Removed Pin From Net: NetName=VCC Pin=C1-2
+Removed Pin From Net: NetName=GND Pin=DD?-8
+Removed Pin From Net: NetName=VCC Pin=DD?-16
+Removed Pin From Net: NetName=VCC Pin=R9-2
+Removed Pin From Net: NetName=7SEG_H Pin=R?-1
+Change Component DesignItemId : Designator=R9 Old DesignItemId=Resistor R0805_2k_5% New DesignItemId=Resistor R0805_10k_5%
+Change Component Comment : Designator=R9 Old Comment=2ê New Comment=10ê
+Change Component Designator: OldDesignator=DD? NewDesignator=DD1
+Change Component Designator: OldDesignator=HG? NewDesignator=HG1
+Change Component Designator: OldDesignator=HG? NewDesignator=HG2
+Change Component Designator: OldDesignator=HG? NewDesignator=HG3
+Change Component Designator: OldDesignator=R1 NewDesignator=R11
+Change Component Designator: OldDesignator=R2 NewDesignator=R12
+Change Component Designator: OldDesignator=R3 NewDesignator=R13
+Change Component Designator: OldDesignator=R4 NewDesignator=R14
+Change Component Designator: OldDesignator=R5 NewDesignator=R15
+Change Component Designator: OldDesignator=R6 NewDesignator=R17
+Change Component Designator: OldDesignator=R7 NewDesignator=R18
+Change Component Designator: OldDesignator=R8 NewDesignator=R19
+Change Component Designator: OldDesignator=R10 NewDesignator=R21
+Change Component Designator: OldDesignator=R11 NewDesignator=R23
+Change Component Designator: OldDesignator=R12 NewDesignator=R24
+Change Component Designator: OldDesignator=R? NewDesignator=R1
+Change Component Designator: OldDesignator=R? NewDesignator=R2
+Change Component Designator: OldDesignator=R? NewDesignator=R3
+Change Component Designator: OldDesignator=R? NewDesignator=R4
+Change Component Designator: OldDesignator=R? NewDesignator=R5
+Change Component Designator: OldDesignator=R? NewDesignator=R6
+Change Component Designator: OldDesignator=R? NewDesignator=R7
+Change Component Designator: OldDesignator=R? NewDesignator=R8
+Change Component Designator: OldDesignator=R? NewDesignator=R10
+Change Component Designator: OldDesignator=R? NewDesignator=R16
+Change Component Designator: OldDesignator=R? NewDesignator=R22
+Change Component Designator: OldDesignator=VT? NewDesignator=VT1
+Change Component Designator: OldDesignator=VT? NewDesignator=VT2
+Change Component Designator: OldDesignator=VT? NewDesignator=VT3
+Added Component: Designator=C3(Capacitor SMD0805)
+Added Component: Designator=C4(Capacitor SMD0805)
+Added Component: Designator=DD2(IC 74HC164D)
+Added Component: Designator=R20(Resistor SMD0805)
+Added Pin To Net: NetName=VCC Pin=C2-2
+Added Pin To Net: NetName=GND Pin=C3-1
+Added Pin To Net: NetName=VCC Pin=C3-2
+Added Pin To Net: NetName=GND Pin=C4-1
+Added Pin To Net: NetName=GND Pin=DD2-7
+Added Pin To Net: NetName=VCC Pin=DD2-14
+Added Pin To Net: NetName=7SEG_A Pin=HG2-2
+Added Pin To Net: NetName=7SEG_F Pin=HG2-3
+Added Pin To Net: NetName=7SEG_E Pin=HG2-5
+Added Pin To Net: NetName=7SEG_H Pin=HG2-10
+Added Pin To Net: NetName=7SEG_D Pin=HG2-11
+Added Pin To Net: NetName=7SEG_C Pin=HG2-13
+Added Pin To Net: NetName=7SEG_G Pin=HG2-14
+Added Pin To Net: NetName=7SEG_B Pin=HG2-15
+Added Pin To Net: NetName=7SEG_A Pin=HG3-2
+Added Pin To Net: NetName=7SEG_F Pin=HG3-3
+Added Pin To Net: NetName=7SEG_E Pin=HG3-5
+Added Pin To Net: NetName=7SEG_H Pin=HG3-10
+Added Pin To Net: NetName=7SEG_D Pin=HG3-11
+Added Pin To Net: NetName=7SEG_C Pin=HG3-13
+Added Pin To Net: NetName=7SEG_G Pin=HG3-14
+Added Pin To Net: NetName=7SEG_B Pin=HG3-15
+Added Pin To Net: NetName=7SEG_A Pin=R1-1
+Added Pin To Net: NetName=7SEG_B Pin=R2-1
+Added Pin To Net: NetName=7SEG_C Pin=R3-1
+Added Pin To Net: NetName=7SEG_D Pin=R4-1
+Added Pin To Net: NetName=7SEG_E Pin=R5-1
+Added Pin To Net: NetName=7SEG_F Pin=R6-1
+Added Pin To Net: NetName=7SEG_G Pin=R7-1
+Added Pin To Net: NetName=7SEG_H Pin=R8-1
+Added Pin To Net: NetName=VCC Pin=R9-1
+Added Pin To Net: NetName=7SEG_1 Pin=R10-1
+Added Pin To Net: NetName=7SEG_2 Pin=R16-1
+Added Pin To Net: NetName=VCC Pin=R20-2
+Added Pin To Net: NetName=7SEG_3 Pin=R22-1
+Added Pin To Net: NetName=VCC Pin=VT2-2
+Added Pin To Net: NetName=VCC Pin=VT3-2
+Change Net Name : Old Net Name=NetHG?_4 New Net Name=NetHG1_4
+Change Net Name : Old Net Name=NetR4_1 New Net Name=NetR14_1
+Change Net Name : Old Net Name=NetR10_2 New Net Name=NetR21_2
+Change Net Name : Old Net Name=NetR?_2 New Net Name=NetR10_2
+Added Pin To Net: NetName=NetC4_2 Pin=C4-2
+Added Pin To Net: NetName=NetC4_2 Pin=DA1-5
+Added Pin To Net: NetName=NetC4_2 Pin=R23-2
+Added Net: Name=NetC4_2
+Added Pin To Net: NetName=NetDD2_3 Pin=DD2-3
+Added Pin To Net: NetName=NetDD2_3 Pin=R1-2
+Added Net: Name=NetDD2_3
+Added Pin To Net: NetName=NetDD2_4 Pin=DD2-4
+Added Pin To Net: NetName=NetDD2_4 Pin=R2-2
+Added Net: Name=NetDD2_4
+Added Pin To Net: NetName=NetDD2_5 Pin=DD2-5
+Added Pin To Net: NetName=NetDD2_5 Pin=R3-2
+Added Net: Name=NetDD2_5
+Added Pin To Net: NetName=NetDD2_6 Pin=DD2-6
+Added Pin To Net: NetName=NetDD2_6 Pin=R4-2
+Added Net: Name=NetDD2_6
+Added Pin To Net: NetName=NetDD2_10 Pin=DD2-10
+Added Pin To Net: NetName=NetDD2_10 Pin=R5-2
+Added Net: Name=NetDD2_10
+Added Pin To Net: NetName=NetDD2_11 Pin=DD2-11
+Added Pin To Net: NetName=NetDD2_11 Pin=R6-2
+Added Net: Name=NetDD2_11
+Added Pin To Net: NetName=NetDD2_12 Pin=DD2-12
+Added Pin To Net: NetName=NetDD2_12 Pin=R7-2
+Added Net: Name=NetDD2_12
+Added Pin To Net: NetName=NetDD2_13 Pin=DD2-13
+Added Pin To Net: NetName=NetDD2_13 Pin=R8-2
+Added Net: Name=NetDD2_13
+Added Pin To Net: NetName=NetHG2_4 Pin=HG2-4
+Added Pin To Net: NetName=NetHG2_4 Pin=HG2-6
+Added Pin To Net: NetName=NetHG2_4 Pin=HG2-12
+Added Pin To Net: NetName=NetHG2_4 Pin=HG2-17
+Added Pin To Net: NetName=NetHG2_4 Pin=VT2-3
+Added Net: Name=NetHG2_4
+Added Pin To Net: NetName=NetHG3_4 Pin=HG3-4
+Added Pin To Net: NetName=NetHG3_4 Pin=HG3-6
+Added Pin To Net: NetName=NetHG3_4 Pin=HG3-12
+Added Pin To Net: NetName=NetHG3_4 Pin=HG3-17
+Added Pin To Net: NetName=NetHG3_4 Pin=VT3-3
+Added Net: Name=NetHG3_4
+Added Pin To Net: NetName=NetR16_2 Pin=R16-2
+Added Pin To Net: NetName=NetR16_2 Pin=VT2-1
+Added Net: Name=NetR16_2
+Added Pin To Net: NetName=NetR20_1 Pin=R20-1
+Added Pin To Net: NetName=NetR20_1 Pin=R21-1
+Added Pin To Net: NetName=NetR20_1 Pin=VD1-2
+Added Net: Name=NetR20_1
+Added Pin To Net: NetName=NetR22_2 Pin=R22-2
+Added Pin To Net: NetName=NetR22_2 Pin=VT3-1
+Added Net: Name=NetR22_2
+Added Pin To Net: NetName=RG_C Pin=DD2-8
+Added Net: Name=RG_C
+Added Pin To Net: NetName=RG_D Pin=DD2-1
+Added Pin To Net: NetName=RG_D Pin=DD2-2
+Added Net: Name=RG_D
+Added Pin To Net: NetName=RG_R Pin=C1-2
+Added Pin To Net: NetName=RG_R Pin=DD2-12
+Added Pin To Net: NetName=RG_R Pin=R9-2
+Added Net: Name=RG_R
+Added Member To Class: ClassName=uThermometer Member=Component C3 0,1
+Added Member To Class: ClassName=uThermometer Member=Component C4 0,1
+Added Member To Class: ClassName=uThermometer Member=Component DD2 74HC164D
+Added Member To Class: ClassName=uThermometer Member=Component HG1 LTS-3401VE
+Added Member To Class: ClassName=uThermometer Member=Component HG2 LTS-3401VE
+Added Member To Class: ClassName=uThermometer Member=Component R13 10ê
+Added Member To Class: ClassName=uThermometer Member=Component R14 15ê
+Added Member To Class: ClassName=uThermometer Member=Component R15 10ê
+Added Member To Class: ClassName=uThermometer Member=Component R16 10ê
+Added Member To Class: ClassName=uThermometer Member=Component R17 10ê
+Added Member To Class: ClassName=uThermometer Member=Component R18 10ê
+Added Member To Class: ClassName=uThermometer Member=Component R19 10ê
+Added Member To Class: ClassName=uThermometer Member=Component R20 2ê
+Added Member To Class: ClassName=uThermometer Member=Component R21 20ê
+Added Member To Class: ClassName=uThermometer Member=Component R23 10ê
+Added Member To Class: ClassName=uThermometer Member=Component R24 100
+Added Member To Class: ClassName=uThermometer Member=Component VT1 BC857B
+Added Member To Class: ClassName=uThermometer Member=Component VT2 BC857B
