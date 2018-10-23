@@ -1,0 +1,6 @@
+Added Component: Designator=KT5(TestPoint 1)
+Added Component: Designator=KT6(TestPoint 1)
+Added Pin To Net: NetName=VCC Pin=KT5-1
+Added Pin To Net: NetName=GND Pin=KT6-1
+Added Member To Class: ClassName=uThermometer Member=Component KT5 TestPoint 1
+Added Member To Class: ClassName=uThermometer Member=Component KT6 TestPoint 1

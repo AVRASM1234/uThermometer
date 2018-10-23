@@ -1,0 +1,4 @@
+Change Component DesignItemId : Designator=C8 Old DesignItemId=Capacitor R6V New DesignItemId=Capacitor R5V
+Change Component DesignItemId : Designator=C9 Old DesignItemId=Capacitor R6V New DesignItemId=Capacitor R5V
+Change Component Footprint: Designator=C8 Old Footprint=Capacitor R6V New Footprint=Capacitor R5V
+Change Component Footprint: Designator=C9 Old Footprint=Capacitor R6V New Footprint=Capacitor R5V

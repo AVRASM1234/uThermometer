@@ -1,0 +1,11 @@
+Added Component: Designator=C8(Capacitor R6V)
+Added Component: Designator=C9(Capacitor R6V)
+Added Pin To Net: NetName=GND Pin=C8-2
+Added Pin To Net: NetName=VCC Pin=C9-1
+Added Pin To Net: NetName=GND Pin=C9-2
+Added Pin To Net: NetName=NetC8_1 Pin=C8-1
+Added Pin To Net: NetName=NetC8_1 Pin=DA2-3
+Added Pin To Net: NetName=NetC8_1 Pin=X2-1
+Added Net: Name=NetC8_1
+Added Member To Class: ClassName=uThermometer Member=Component C8 100,0
+Added Member To Class: ClassName=uThermometer Member=Component C9 100,0
